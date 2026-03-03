@@ -1,0 +1,348 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Fixed Navigation Portion */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 50px;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+    background-color: #d0dce8;
+}
+
+.header-info-logo {
+    height: 30px;
+}
+
+.header-info-logo img {
+    height: 30px;
+    width: auto;
+    display: block;
+}
+
+.header-language {
+    width: 85px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #9dcbfe;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #080037;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 15px;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d3878;
+    height: 50px;
+    z-index: 1000;
+    padding: 0 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.475);
+}
+
+.nav-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-login i,
+.nav-opts i {
+    font-size: 1.5rem;
+}
+
+/* Login Button Styling*/
+.login-btn {
+    cursor: pointer;
+    background: #D66025;
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+}
+
+.nav-opts {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    color: #d4e8ff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.home,
+.about,
+.dashboard {
+    height: 100%;
+    width: auto;
+    padding: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #1d3878;
+    gap: 7px;
+}
+
+.nav-opts>div svg {
+    font-size: 1.2rem;
+    padding-bottom: 2.5px;
+}
+
+.nav-opts>div:hover {
+    box-shadow: inset 0 5px 10px #00000080;
+    border-bottom: 5px solid #ff7300;
+    cursor: pointer;
+}
+
+.nav-active {
+    box-shadow: inset 0 5px 10px #00000080;
+    border-bottom: 5px solid #ff7300;
+}
+
+/* Body of the website */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 0px;
+}
+
+/* Information in the body */
+
+.content-bg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 105px;
+    width: 100%;
+    height: 430px;
+    background-color: #ffffff;
+}
+
+.content-bg-img {
+    height: 250px;
+    width: 800px;
+    margin: 60px;
+}
+
+.content-bg img {
+    height: 250px;
+    width: auto;
+    display: block;
+}
+
+/* .content-bg-content {
+    padding: 75px;
+    color: #07263f;
+    font-size: 1rem;
+    font-weight: bold;
+} */
+
+/* Text Carousel */
+.text-carousel {
+    padding: 50px;
+    padding-top: 80px;
+    padding-left: 100px;
+    width: 800px;
+    text-align: center;
+}
+
+/* Key Features */
+
+.content-menu {
+    height: 375px;
+    width: auto;
+    padding: 15px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #1d3878;
+    gap: 40px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.content-menu-body-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1d3878;
+}
+
+.content-menu-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    width: 190px;
+    background: radial-gradient(circle at bottom left, #ffffff, #b6d8ff);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.475);
+    padding: 10px;
+    text-decoration-line: none;
+    color: #1e8ca2;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    gap: 20px;
+    text-align: center;
+}
+
+.content-menu-items p {
+    color: #1d3878;
+    font-size: 1.1rem;
+}
+
+.content-menu-items:hover {
+    box-shadow: 0 5px 15px #080037, 0 0 20px #00053a;
+}
+
+.content-menu-items p.content-menu-hover {
+    padding: 10px;
+    color: #0a4e67;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/* body */
+
+.footer-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: auto;
+    background-color: #0a4e67;
+    color: #b6d8ff;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Chat */
+.footer-chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(#b6d8ff, #ffffff);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.475);
+    color: #1d3878;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.footer-chat-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header-info {
+        padding: 10px 20px;
+    }
+
+    .navbar {
+        padding: 0 15px;
+    }
+
+    .nav-opts {
+        padding-left: 0;
+    }
+
+    .nav-opts>div p {
+        font-size: 11px;
+    }
+    .home,
+    .about,
+    .dashboard {
+        padding: 15px 12px;
+        gap: 8px;
+    }
+
+    .content-bg {
+        flex-direction: column;
+        height: auto;
+        padding-top: 130px;
+        padding-bottom: 30px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .content-bg-img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .text-carousel {
+        width: 90%;
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+
+    .content-menu {
+        height: auto;
+    }
+
+    .content-menu-body-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .content-menu-items {
+        width: 250px;
+        height: 220px;
+        padding: 20px;
+        
+    }
+}

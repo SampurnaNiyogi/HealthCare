@@ -1,0 +1,22 @@
+// This file is part of the HackHeritage2k25 project.
+// It contains the requirements for the frontend dependencies.
+# Frontend dependencies
+
+# npm install tailwindcss @tailwindcss/vite
+# npm install @heroicons/react
+
+# npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons
+
+# npm install react react-dom
+# npm install react-router-dom
+# npm install framer-motion
+# npm install react-icons
+# npm install react-tooltip
+
+# npm install lucide-react
+
+# npm install recharts
+
+# npm install react-toastify
+
+npm install tailwindcss @tailwindcss/vite @heroicons/react @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons react react-dom react-router-dom framer-motion react-icons react-tooltip lucide-react recharts react-toastify

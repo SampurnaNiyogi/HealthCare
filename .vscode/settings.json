@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "python.defaultInterpreterPath": "backend/myvenv/bin/python"
+}
+
+
